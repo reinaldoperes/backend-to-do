@@ -1,0 +1,28 @@
+{
+  "name": "backend-to-do",
+  "version": "1.0.0",
+  "description": "Backend NodeJS + MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinaldoperes/backend-to-do.git"
+  },
+  "keywords": [],
+  "author": "Reinaldo Porte Peres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reinaldoperes/backend-to-do/issues"
+  },
+  "homepage": "https://github.com/reinaldoperes/backend-to-do#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
